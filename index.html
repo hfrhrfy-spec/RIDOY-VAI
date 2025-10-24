@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Kawsar Premium Login</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ছবি -->
+    <img id="cartoon" src="https://i.postimg.cc/vZ3bqF9z/Screenshot-20251025-012357.jpg" alt="Kawsar Image">
+
+    <!-- লগইন পেজ -->
+    <div id="loginPage" aria-hidden="true">
+        <!-- হেডার পরিবর্তন -->
+        <h2>রিদয় তুমি তাড়াতাড়ি লগইন করো</h2>
+
+        <!-- error message -->
+        <div id="errorMsg"></div>
+
+        <form id="loginForm">
+            <input id="numberInput" type="text" placeholder="Your Number" autocomplete="tel"><br>
+            <input id="passwordInput" type="password" placeholder="Your Password" autocomplete="current-password"><br>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+    <!-- ড্যাশবোর্ড -->
+    <div id="dashboard" aria-hidden="true">
+        <h1>আমি হলাম বোকাচোদা রিদয়, আর আমার আব্বু হলো কাউছার</h1>
+        <button id="logoutBtn">Logout</button>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
